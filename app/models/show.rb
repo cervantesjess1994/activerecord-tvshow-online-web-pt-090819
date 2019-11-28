@@ -9,4 +9,4 @@ class Show < ActiveRecord::Base
     show.title
   end
 
-  def 
+  def
