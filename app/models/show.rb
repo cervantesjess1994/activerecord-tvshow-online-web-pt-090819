@@ -26,5 +26,7 @@ class Show < ActiveRecord::Base
     Show.where("rating => ?", 5[:names])
   end
 
-  def
+  def shows_by_alphabetical_order
+    Show.order("name") :ASC
+  end
     
