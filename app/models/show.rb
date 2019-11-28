@@ -26,5 +26,5 @@ class Show < ActiveRecord::Base
     Show.where("rating => ?", 5[:names])
   end
 
-  def 
+  def
     
